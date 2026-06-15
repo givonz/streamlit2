@@ -1,6 +1,6 @@
 import onnxruntime
 from langchain_community.vectorstores.chroma import Chroma
-from langchain_community.chat_models.ollama import ChatOllama
+#from langchain_community.chat_models.ollama import ChatOllama
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from langchain_community.document_loaders.pdf import PyPDFLoader
 from langchain_community.vectorstores.utils import filter_complex_metadata
